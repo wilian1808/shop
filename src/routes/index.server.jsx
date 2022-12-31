@@ -1,3 +1,9 @@
-export default function Home() {
-  return <div>Hello World</div>;
+import ListCollections from '../components/oficial/ListCollections.server'
+
+export default function Home () {
+  return (
+    <>
+      <ListCollections />
+    </>
+  )
 }

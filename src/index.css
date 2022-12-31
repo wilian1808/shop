@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Urbanist';
+  src: url('/fonts/Urbanist.woff2') format('woff2');
+  font-weight: 1 1000;
+}
+
+@font-face {
+  font-family: 'ProtomoOutline';
+  src: url('/fonts/ProtomoOutline.woff2') format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+*:focus,
+*:hover,
+*:active {
+  outline: none;
+  box-shadow: none;
+}
+
+::-webkit-scrollbar {
+  width: .4rem;
+  background-color: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #242424;
+}
